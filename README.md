@@ -14,7 +14,7 @@ TechPrane is your go-to platform for:
 
 Stay ahead in your development journey by subscribing to our YouTube channel:
 
-[![TechPrane YouTube Channel](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/channel/YOUR_CHANNEL_ID)
+[![TechPrane YouTube Channel](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/@TechPrane)
 
 *Click the image above to watch our latest video and subscribe for more content.*
 
