@@ -55,6 +55,7 @@ config:
       border: 0px black solid
       # boxShadow: none
       # margin: 0px
+      text-align: center
   
   # Add a watermark image to the rendered gif
   # You need to specify an absolute path for
