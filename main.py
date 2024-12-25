@@ -1,10 +1,19 @@
+import os
+from dotenv import load_dotenv
 from tortoise import Tortoise, fields
 from tortoise.models import Model
+
+# Load environment variables from a .env file (if you're using one)
+load_dotenv()
+
+# Fetch username and password from environment variables
+DB_USERNAME = os.getenv('DB_USERNAME')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
 
 # Step 1: Define Database Configuration
 DATABASE_CONFIG = {
     "connections": {
-        "default": "postgres://username:password@localhost:5432/tortoise_demo"
+        "default": f"postgres://{DB_USERNAME}:{DB_PASSWORD}@localhost:5432/tortoise_demo"
     },
     "apps": {
         "models": {
@@ -97,3 +106,7 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
+
+
+
+
